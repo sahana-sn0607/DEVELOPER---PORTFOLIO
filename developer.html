@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0b1120;
+            color: white;
+        }
+
+        /* NAVBAR */
+        header {
+            background-color: #060b16;
+            padding: 20px 40px;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between; /* keeps left + right items spaced */
+            align-items: center;
+        }
+
+        .logo {
+            color: #7cb4ff;
+            letter-spacing: 3px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 40px;
+        }
+
+        nav ul li a {
+            color: #dcdcdc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* SECTIONS */
+        section {
+            padding: 50px 80px; /* reduced space */
+        }
+
+        h2 {
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+
+        .underline {
+            width: 60px;
+            height: 4px;
+            background: linear-gradient(90deg, #6d9fff, #c584ff);
+            margin-bottom: 20px;
+            border-radius: 2px;
+        }
+
+        p {
+            max-width: 700px;
+            line-height: 1.7;
+        }
+
+        /* Reduce gap between About and Projects */
+        #about { padding-bottom: 10px; }
+        #projects { padding-top: 10px; }
+
+        /* PROJECT CARDS */
+        .projects-grid {
+            margin-top: 25px; /* reduced */
+            display: flex;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background-color: #101b33;
+            padding: 25px;
+            width: 300px;
+            border-radius: 14px;
+        }
+
+        .card a {
+            margin-top: 10px;
+            color: #7cb4ff;
+            text-decoration: none;
+            display: inline-block;
+        }
+    </style>
+
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav>
+            <div class="logo">SAHANA SN</div>
+
+            <ul>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="underline"></div>
+
+        <p>
+            I am a full stack developer experienced in building responsive web applications
+            using HTML, CSS, JavaScript, and Java backends. I enjoy creating clean UIs and
+            well-structured code.
+        </p>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="underline"></div>
+
+        <div class="projects-grid">
+
+            <div class="card">
+                <h3>Real-Time Chat App</h3>
+                <p>A web chat application using WebSocket for real-time messaging and a responsive UI.</p>
+                <a href="#">View details</a>
+            </div>
+
+            <div class="card">
+                <h3>Interactive Quiz App</h3>
+                <p>A quiz platform with multiple categories, scoring, and mobile-friendly layout.</p>
+                <a href="#">View details</a>
+            </div>
+
+            <div class="card">
+                <h3>Developer Portfolio</h3>
+                <p>A personal portfolio website to showcase projects, skills, and contact information.</p>
+                <a href="#">View details</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="underline"></div>
+        <p>Feel free to reach out for opportunities or collaborations.</p>
+    </section>
+
+</body>
+</html>
