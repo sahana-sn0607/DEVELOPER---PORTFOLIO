@@ -24,6 +24,7 @@ They attract freelance clients on platforms like Upwork by highlighting projects
 Use them in interviews, networking on LinkedIn/GitHub, and career growth to demonstrate expertise in Java, WebSockets, and responsive web design.
     
 #Output
+<img width="1920" height="1029" alt="Image" src="https://github.com/user-attachments/assets/a6beff2b-447c-478f-b06b-98b7d5c2a013" />
 
 
 
